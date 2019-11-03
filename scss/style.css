@@ -350,4 +350,45 @@ body {
 #contact-address input {
   margin-bottom: 15px;
 }
+
+#cmt-dep {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/computer-lab.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/computer-lab.jpg");
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#electrical-dep {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/electrical-lab.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/electrical-lab.jpg");
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#electronic-dep {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/electronic-lab.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/electronic-lab.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#electronic-dep h2 {
+  text-shadow: 1px 1px 5px #333;
+}
+
+#telecommunication-dep {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/telecommunications-lab.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/telecommunications-lab.jpg");
+  background-size: cover;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */
