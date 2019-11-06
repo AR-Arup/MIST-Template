@@ -77,6 +77,8 @@ body{
      #messages-mannan {
          
          h2 {
+             margin-top: 20px;
+             display: inline-block;
              border-bottom: 3px solid red;
              line-height: 60px;
             
@@ -102,6 +104,7 @@ body{
      }
 
      #footer-part {
+         background: #071B4D !important;
          h3 {
              border-left: 2px solid #D220FF;
              padding-left:9px;
@@ -111,7 +114,7 @@ body{
      }
 
      #footer-last-area {
-         background: #000000;
+         background: #071B4D;
          color: #fff;
      }
 
@@ -142,6 +145,7 @@ body{
 
      #administration-section {
          .card {
+             margin: auto;
             box-shadow: 2px 2px 15px rgba(179, 142, 142,0.5), -2px -2px 15px
             rgba(179, 142, 142,0.5);
             border: 1px solid rgb(187, 148, 148);
@@ -366,4 +370,29 @@ body{
     background-position: center; 
     background-attachment: fixed;
   }
+
+  #civil-dep {
+    
+      background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/civil-lab.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      min-height: 300px;
+      background-position: center;
+  }
+
+  #architecture-dep {
+    
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/architecture-lab.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 300px;
+    background-position: top;
+}
  
+#mechanical-dep {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/machanical-lab.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 300px;
+    background-position: top;
+}
