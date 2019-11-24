@@ -12,16 +12,18 @@
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="scss/style.css" />
-    <title>MIST-Job-cell</title>
+    <link rel="stylesheet" href="css/datatables.min.css">
+    <link rel="stylesheet" href="css/datatables-select.min.css">
+    <title>MIST-Industry-list</title>
 </head>
 
 <body>
     <!-- NAVIGATION BAR -->
 
-    <nav id="showcase" class=" py-3 navbar navbar-dark navbar-expand-lg fixed-top">
+    <nav id="showcase" class=" py-3 navbar navbar-light bg-light navbar-expand-lg fixed-top">
         <div class="container">
             <a href="index.html">
-                <img class="img-fluid" src="img/mistlogo.svg" alt="MIST" width="150" />
+                <img src="img/mist-logo.png" alt="MIST">
             </a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -60,11 +62,13 @@
                             <a href="computer.html" class="dropdown-item"><i class="fas fa-desktop"></i> Computer</a>
                             <a href="electrical.html" class="dropdown-item"><i class="fas fa-plug"></i> Electrical</a>
                             <a href="electronic.html" class="dropdown-item"><i class="fas fa-bolt"></i> Electronics</a>
-                            <a href="telecommunication.html" class="dropdown-item"><i class="fas fa-broadcast-tower"></i>
+                            <a href="telecommunication.html" class="dropdown-item"><i
+                                    class="fas fa-broadcast-tower"></i>
                                 Telecommunication</a>
                             <a href="civil.html" class="dropdown-item"><i class="fas fa-igloo"></i> Civil</a>
-                            <a href="architecture.html" class="dropdown-item"><i class="fas fa-ruler-combined"></i> Architecture</a>
-                            <a href="mechanical.html" class="dropdown-item"><i class="fas fa-cogs"></i> Mechanical</a>
+                            <a href="architecture.html" class="dropdown-item"><i class="fas fa-ruler-combined"></i>
+                                Architecture</a>
+                            <a href="#" class="dropdown-item"><i class="fas fa-cogs"></i> Mechanical</a>
                         </div>
                     </li>
 
@@ -74,7 +78,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link" href="industry-list.html">Industry-List</a>
                     </li>
                     <li class="nav-item active">
@@ -91,14 +95,14 @@
         </div>
     </nav>
 
-    <br /><br /><br /><br />
+    <br /><br /><br />
 
-    <!-- Administration-->
+    <!-- JOB CELL -->
 
-    <section id="administration" class="py-5 text-center text-light">
+    <section id="job-cell" class="py-5 text-center text-light">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-5">
                     <h2>Job Cell</h2>
                     <h5>Model Institute of Science and Technology (MIST)</h5>
                 </div>
@@ -106,7 +110,312 @@
         </div>
     </section>
 
-    
+
+    <!-- TABLE SECTION -->
+
+    <section id="table-part" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table id="dtBasicExample" class="table table-light table-bordered table-hover" cellspacing="0"
+                        width="100%">
+                        <thead class="bg-secondary text-light">
+                            <tr class="text-center">
+                                <th>SL</th>
+                                <th>Student Name</th>
+                                <th>Department</th>
+                                <th>Session</th>
+                                <th>Passing Year</th>
+                                <th>Phone</th>
+                                <th>Designation</th>
+                                <th>Company Name</th>
+                                <th>Company Address</th>
+                            </tr>
+                        </thead>
+                           <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>MAZAHARUL</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1722437736</td>
+                                <td>EXECUTIVE</td>
+                                <td>AKBAR COTTON</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>9</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>10</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>11</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>14</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>15</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>16</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>17</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>18</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>19</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>20</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>21</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>22</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>23</td>
+                                <td>MD NAZRUL ISLAM</td>
+                                <td></td>
+                                <td>2006-2007</td>
+                                <td></td>
+                                <td>1676121178</td>
+                                <td>SR EXECUTIVE IE</td>
+                                <td>INTRAMEX GROUP</td>
+                                <td></td>
+                            </tr>
+                           </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- FOOTER SECTION -->
@@ -118,7 +427,7 @@
                     <h3 class="text-muted">MIST</h3>
                     <p>BIDC Road <br>
                         DUET,Joydebpur <br>
-                            Gazipur-1700</p>
+                        Gazipur-1700</p>
                 </div>
                 <div class="col-md-7">
                     <p>
@@ -153,6 +462,9 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/navbar-fixed.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/datatables-select.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

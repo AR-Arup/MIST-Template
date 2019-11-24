@@ -12,16 +12,18 @@
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="scss/style.css" />
+    <link rel="stylesheet" href="css/datatables.min.css">
+    <link rel="stylesheet" href="css/datatables-select.min.css">
     <title>MIST-Industry-list</title>
 </head>
 
 <body>
     <!-- NAVIGATION BAR -->
 
-    <nav id="showcase" class=" py-3 navbar navbar-dark navbar-expand-lg fixed-top">
+    <nav id="showcase" class=" py-3 navbar navbar-light bg-light navbar-expand-lg fixed-top">
         <div class="container">
             <a href="index.html">
-                <img class="img-fluid" src="img/mistlogo.svg" alt="MIST" width="150" />
+                <img src="img/mist-logo.png" alt="MIST">
             </a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -60,10 +62,12 @@
                             <a href="computer.html" class="dropdown-item"><i class="fas fa-desktop"></i> Computer</a>
                             <a href="electrical.html" class="dropdown-item"><i class="fas fa-plug"></i> Electrical</a>
                             <a href="electronic.html" class="dropdown-item"><i class="fas fa-bolt"></i> Electronics</a>
-                            <a href="telecommunication.html" class="dropdown-item"><i class="fas fa-broadcast-tower"></i>
+                            <a href="telecommunication.html" class="dropdown-item"><i
+                                    class="fas fa-broadcast-tower"></i>
                                 Telecommunication</a>
                             <a href="civil.html" class="dropdown-item"><i class="fas fa-igloo"></i> Civil</a>
-                            <a href="architecture.html" class="dropdown-item"><i class="fas fa-ruler-combined"></i> Architecture</a>
+                            <a href="architecture.html" class="dropdown-item"><i class="fas fa-ruler-combined"></i>
+                                Architecture</a>
                             <a href="#" class="dropdown-item"><i class="fas fa-cogs"></i> Mechanical</a>
                         </div>
                     </li>
@@ -91,14 +95,14 @@
         </div>
     </nav>
 
-    <br /><br /><br /><br />
+    <br /><br /><br />
 
     <!-- Administration-->
 
-    <section id="administration" class="py-5 text-center text-light">
+    <section id="in-management" class="py-5 text-center text-light">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-5">
                     <h2>Industry List</h2>
                     <h5>Model Institute of Science and Technology (MIST)</h5>
                 </div>
@@ -106,7 +110,177 @@
         </div>
     </section>
 
-    
+
+    <!-- TABLE SECTION -->
+
+    <section id="table-part" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table id="dtBasicExample" class="table table-light table-bordered table-hover" cellspacing="0"
+                        width="100%">
+                        <thead class="bg-info text-light">
+                            <tr class="text-center">
+                                <th>SL</th>
+                                <th>Industry Name</th>
+                                <th>Industry Management</th>
+                                <th>Contact Number</th>
+                                <th>Website</th>
+                                <th>Email</th>
+                                <th>Address</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>A. H TEXTILE MILLS LIMITED</td>
+                                <td>Managing director</td>
+                                <td>9556294, 9803793, 9559703, 011-832313</td>
+                                <td></td>
+                                <td></td>
+                                <td>C-142, BSCIC I/A TONGI, Gazipur.</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>A. M. KNITWEAR INDUSTRIES</td>
+                                <td>MR. S. M. RAHMAN (MOIN)</td>
+                                <td>90,124,251,734,638,300</td>
+                                <td></td>
+                                <td></td>
+                                <td>GUSSO GRAM ROAD, SURABARI, KASHEMPUR, GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>A. Q. S INDUSTRIES LTD</td>
+                                <td>Derector</td>
+                                <td>8115346, 9128448</td>
+                                <td></td>
+                                <td></td>
+                                <td>BISUY KURI BARI,MIRZAPUR, Gazipur</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>ABDUL HAI KNITWEARS LTD.</td>
+                                <td>MR. ABUL KALAM MD. SOBUJ, Managing Director</td>
+                                <td>9298793, 01711825263</td>
+                                <td></td>
+                                <td></td>
+                                <td>ALIRCHALA, MOUCHAK, KALIAKOIR,GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>ABL DESIGN AND FASHION</td>
+                                <td>MR. MD. AKTER HOSSAIN, Proprietor</td>
+                                <td>02-8922499, 8922946, 8912770</td>
+                                <td></td>
+                                <td></td>
+                                <td>317, BERAIDER CHALA, SREEPUR, Gazipur</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>ABOVE FASHION LED</td>
+                                <td>MR. ABDULLA AL HARUN,Managing Director</td>
+                                <td>02-8849781,1711046690</td>
+                                <td></td>
+                                <td></td>
+                                <td>175, KAZI MARKET (2ND/3RD FLOOR),TONGI, Gazipur.</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>AFOA KNIT COMPOSITE LTD</td>
+                                <td>MR. MD. SAIFUL AZAM,Managing Director</td>
+                                <td>02-9814798, 88-02-9814799</td>
+                                <td></td>
+                                <td></td>
+                                <td>20/1/A, SHATAISH,TONGI, Gazipur.</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>AFRADI FASHION LTD</td>
+                                <td>MR. MD. AMINUR RAHMAN,Managing Director</td>
+                                <td>0379-200-5793,1715182495</td>
+                                <td></td>
+                                <td></td>
+                                <td>1/1, BORO DEWRA, CHORGALI,TONGI, Gazipur.</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>9</td>
+                                <td>AHSAN COMPOSITE LTD</td>
+                                <td>MR. A. S. M QUAMRUL AHSAN</td>
+                                <td>02-8319059, 9352064,1678006708</td>
+                                <td></td>
+                                <td></td>
+                                <td>WORD-8,CHANDARA,KALIAKOIR, POURASHAVA,KALIAKOIR,Gazipur.</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>10</td>
+                                <td>ALIENS TEXWEAR LTD</td>
+                                <td>MR. MUHAMMED WALIUL ISLAM,Chairman</td>
+                                <td>1713068932</td>
+                                <td></td>
+                                <td></td>
+                                <td>SURA BARI, KASHIMPUR,GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>11</td>
+                                <td>ALIM KNIT (BD) LTD</td>
+                                <td>MR. HAJI ABDUL MAJID MONDOL,Managing Directo</td>
+                                <td>02-9298557, 9298558</td>
+                                <td></td>
+                                <td></td>
+                                <td>KASHIMPUR,NAYAPARA,GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>AMANTEX LIMITED.</td>
+                                <td>MR. MD. RAFIQUL ISLAM,Managing Director</td>
+                                <td>8921480, 8918851,1711591645</td>
+                                <td></td>
+                                <td></td>
+                                <td>BOIRAGIRCHALA, SREEPUR,GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>AMC KNIT COMPOSITE</td>
+                                <td>MR. SHUBAL CHANDRA SAHA,Chairman</td>
+                                <td>02-7644739, 9752454</td>
+                                <td></td>
+                                <td></td>
+                                <td>BANIARCHALA, MEMBERBARI, GAZIPUR SADAR,GAZIPUR</td>
+                                <td>Gazipur</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- FOOTER SECTION -->
@@ -118,7 +292,7 @@
                     <h3 class="text-muted">MIST</h3>
                     <p>BIDC Road <br>
                         DUET,Joydebpur <br>
-                            Gazipur-1700</p>
+                        Gazipur-1700</p>
                 </div>
                 <div class="col-md-7">
                     <p>
@@ -153,6 +327,9 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/navbar-fixed.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/datatables-select.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

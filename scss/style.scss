@@ -42,6 +42,15 @@ body{
     }
 
     #showcase {
+
+        img{
+            width: 50px;
+        }
+
+      li {
+        font-size: 17px;
+      }
+
         box-shadow: 0.5px 0.5px 8px red;
         background: #000000;
         .dropdown:hover>.dropdown-menu{
@@ -396,4 +405,20 @@ body{
     background-size: cover;
     min-height: 300px;
     background-position: top;
+}
+
+#in-management {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/in-management.png');
+   
+    background-size: cover;
+    min-height: 300px;
+    background-position:bottom;
+}
+
+#job-cell {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/job-cell.jpg'); 
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+    
 }

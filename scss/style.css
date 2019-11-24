@@ -44,6 +44,14 @@ body {
   background: #000000;
 }
 
+#showcase img {
+  width: 50px;
+}
+
+#showcase li {
+  font-size: 17px;
+}
+
 #showcase .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -425,5 +433,21 @@ body {
   background-size: cover;
   min-height: 300px;
   background-position: top;
+}
+
+#in-management {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/in-management.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/in-management.png");
+  background-size: cover;
+  min-height: 300px;
+  background-position: bottom;
+}
+
+#job-cell {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/job-cell.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/job-cell.jpg");
+  background-size: cover;
+  min-height: 300px;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */
